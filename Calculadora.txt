@@ -8,7 +8,6 @@ float suma(int num1,int num2){
  
 float resta(int num1, int num2){
     float resultadores;
-    resultadores=num1-num2;
     return resultadores;
 }
 
@@ -35,6 +34,8 @@ int main(){
     printf("num2\n");
     scanf("%d",&num2);
 
-    printf("%.2f\n",suma(num1,num2));
+    printf("%f",suma(num1,num2));
 
 }
+
+
